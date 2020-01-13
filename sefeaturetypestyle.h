@@ -1,8 +1,8 @@
 #ifndef SEFEATURETYPESTYLE_H
 #define SEFEATURETYPESTYLE_H
+#include "element.h"
 
-
-class SeFeatureTypeStyle
+class SeFeatureTypeStyle:public Element
 {
 public:
     SeFeatureTypeStyle();

@@ -1,8 +1,8 @@
 #ifndef SECOVERAGENAME_H
 #define SECOVERAGENAME_H
+#include "element.h"
 
-
-class SeCoverageName
+class SeCoverageName:public Element
 {
 public:
     SeCoverageName();

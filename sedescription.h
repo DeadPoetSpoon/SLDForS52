@@ -1,8 +1,8 @@
 #ifndef SEDESCRIPTION_H
 #define SEDESCRIPTION_H
+#include "element.h"
 
-
-class SeDescription
+class SeDescription:public Element
 {
 public:
     SeDescription();

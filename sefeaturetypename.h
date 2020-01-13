@@ -1,8 +1,8 @@
 #ifndef SEFEATURETYPENAME_H
 #define SEFEATURETYPENAME_H
+#include "element.h"
 
-
-class SeFeatureTypeName
+class SeFeatureTypeName:public Element
 {
 public:
     SeFeatureTypeName();

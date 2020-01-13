@@ -1,8 +1,8 @@
 #ifndef SEONLINERESOURCE_H
 #define SEONLINERESOURCE_H
+#include"element.h"
 
-
-class SeOnlineResource
+class SeOnlineResource:public Element
 {
 public:
     SeOnlineResource();

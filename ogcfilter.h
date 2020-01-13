@@ -1,8 +1,8 @@
 #ifndef OGCFILTER_H
 #define OGCFILTER_H
+#include "element.h"
 
-
-class OgcFilter
+class OgcFilter:public Element
 {
 public:
     OgcFilter();

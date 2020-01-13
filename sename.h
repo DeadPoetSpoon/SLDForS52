@@ -1,8 +1,8 @@
 #ifndef SENAME_H
 #define SENAME_H
+#include "element.h"
 
-
-class SeName
+class SeName:public Element
 {
 public:
     SeName();

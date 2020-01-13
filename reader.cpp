@@ -23,6 +23,7 @@ Reader::Reader(QIODevice *device)
         }
 
     }
+
 }
 Reader::~Reader()
 {
