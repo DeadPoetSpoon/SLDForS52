@@ -10,7 +10,7 @@ private:
     ///
     /// \brief sld_CoverageConstraints 必要元素;
     ///
-    QList<SldCoverageConstraint*> sld_CoverageConstraints;
+    QList<SldCoverageConstraint*> _sldCoverageConstraints;
 };
 
 #endif // SLDLAYERCOVERAGECONSTRAINTS_H

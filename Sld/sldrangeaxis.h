@@ -8,8 +8,8 @@ class SldRangeAxis:public Element
 public:
     SldRangeAxis();
 private:
-    SeName* se_Name = nullptr;
-    SldValue* sld_Value = nullptr;
+    SeName* _seName = nullptr;
+    SldValue* _sldValue = nullptr;
 };
 
 #endif // SLDRANGEAXIS_H

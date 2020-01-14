@@ -17,15 +17,46 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     Gml/gmlfeaturecollection.cpp \
+    Ogc/ogcexpression.cpp \
     Ogc/ogcfilter.cpp \
+    Ogc/ogcpropertyname.cpp \
+    Se/Attritubes/seuom.cpp \
+    Se/Attritubes/seversion.cpp \
+    Se/seanchorpoint.cpp \
+    Se/sebasesymbolizer.cpp \
+    Se/secolorreplacement.cpp \
     Se/secoveragename.cpp \
     Se/secoveragestyle.cpp \
     Se/sedescription.cpp \
+    Se/sedisplacement.cpp \
+    Se/seelsefilter.cpp \
+    Se/seexternalgraphic.cpp \
     Se/sefeaturetypename.cpp \
     Se/sefeaturetypestyle.cpp \
+    Se/sefill.cpp \
+    Se/seformat.cpp \
+    Se/segeometry.cpp \
     Se/segraphic.cpp \
+    Se/seinlinecontent.cpp \
+    Se/selegendgraphic.cpp \
+    Se/selinesymbolizer.cpp \
+    Se/semark.cpp \
+    Se/semarkindex.cpp \
+    Se/semaxscaledenominator.cpp \
+    Se/seminscaledenominator.cpp \
     Se/sename.cpp \
     Se/seonlineresource.cpp \
+    Se/seopacity.cpp \
+    Se/separametervaluetype.cpp \
+    Se/seperpendicularoffset.cpp \
+    Se/serecode.cpp \
+    Se/serotation.cpp \
+    Se/serule.cpp \
+    Se/sesemantictypeidentifier.cpp \
+    Se/sesize.cpp \
+    Se/sestroke.cpp \
+    Se/sesymbolizer.cpp \
+    Se/sewellknownname.cpp \
     Sld/sldcoverageconstraint.cpp \
     Sld/sldcoverageextent.cpp \
     Sld/sldextent.cpp \
@@ -53,15 +84,46 @@ SOURCES += \
 
 HEADERS += \
     Gml/gmlfeaturecollection.h \
+    Ogc/ogcexpression.h \
     Ogc/ogcfilter.h \
+    Ogc/ogcpropertyname.h \
+    Se/Attritubes/seuom.h \
+    Se/Attritubes/seversion.h \
+    Se/seanchorpoint.h \
+    Se/sebasesymbolizer.h \
+    Se/secolorreplacement.h \
     Se/secoveragename.h \
     Se/secoveragestyle.h \
     Se/sedescription.h \
+    Se/sedisplacement.h \
+    Se/seelsefilter.h \
+    Se/seexternalgraphic.h \
     Se/sefeaturetypename.h \
     Se/sefeaturetypestyle.h \
+    Se/sefill.h \
+    Se/seformat.h \
+    Se/segeometry.h \
     Se/segraphic.h \
+    Se/seinlinecontent.h \
+    Se/selegendgraphic.h \
+    Se/selinesymbolizer.h \
+    Se/semark.h \
+    Se/semarkindex.h \
+    Se/semaxscaledenominator.h \
+    Se/seminscaledenominator.h \
     Se/sename.h \
     Se/seonlineresource.h \
+    Se/seopacity.h \
+    Se/separametervaluetype.h \
+    Se/seperpendicularoffset.h \
+    Se/serecode.h \
+    Se/serotation.h \
+    Se/serule.h \
+    Se/sesemantictypeidentifier.h \
+    Se/sesize.h \
+    Se/sestroke.h \
+    Se/sesymbolizer.h \
+    Se/sewellknownname.h \
     Sld/sldcoverageconstraint.h \
     Sld/sldcoverageextent.h \
     Sld/sldextent.h \
@@ -82,7 +144,7 @@ HEADERS += \
     Sld/sldvalue.h \
     Sld/styledlayerdescriptor.h \
     Xml/attribute.h \
-    Xml/Xml/element.h \
+    Xml/element.h \
     Xml/reader.h \
     mainwindow.h \
 

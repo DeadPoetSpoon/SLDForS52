@@ -10,7 +10,7 @@ private:
     ///
     /// \brief gml_FeatureCollections 必有元素;
     ///
-    QList<GmlFeatureCollection*> gml_FeatureCollections;
+    QList<GmlFeatureCollection*> _gmlFeatureCollections;
 };
 
 #endif // SLDINLINEFEATURE_H

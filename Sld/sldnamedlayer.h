@@ -15,12 +15,12 @@ private:
     ///
     /// \brief se_Name 必有元素;
     ///
-    SeName* se_Name = nullptr;
-    SeDescription* se_Description = nullptr;
-    SldLayerFeatureConstraints* sld_LayerFeatureConstraints = nullptr;
+    SeName* _seName = nullptr;
+    SeDescription* _seDescription = nullptr;
+    SldLayerFeatureConstraints* _sldLayerFeatureConstraints = nullptr;
     STYLETYPE _styleType = NAMED;
-    QList<SldNamedStyle*> sld_NamedStyles;
-    QList<SldUserStyle*> sld_UserStyle;
+    QList<SldNamedStyle*> _sldNamedStyles;
+    QList<SldUserStyle*> _sldUserStyle;
 };
 
 #endif // SLDNAMEDLAYER_H

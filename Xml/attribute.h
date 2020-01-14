@@ -1,7 +1,10 @@
 #ifndef ATTRIBUTE_H
 #define ATTRIBUTE_H
 #include <QString>
-
+///
+/// \brief The Attribute class
+/// Xml属性基类。
+///
 class Attribute
 {
 public:
@@ -15,7 +18,7 @@ public:
 
     bool isThis(QString name);
 
-private:
+protected:
     QString _attributeName;
     QString _attributeValue;
 };

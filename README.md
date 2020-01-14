@@ -1,2 +1,2 @@
-# SLDForS52
-SLDForS52
+# SLD
+SLD in qt (C++)

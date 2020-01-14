@@ -9,9 +9,9 @@ class SldFeatureTypeConstraint:public Element
 public:
     SldFeatureTypeConstraint();
 private:
-    SeFeatureTypeName* se_FeatureTypeName = nullptr;
-    OgcFilter* ogc_Filter = nullptr;
-    SldExtent* sld_Extent = nullptr;
+    SeFeatureTypeName* _seFeatureTypeName = nullptr;
+    OgcFilter* _ogcFilter = nullptr;
+    SldExtent* _sldExtent = nullptr;
 };
 
 #endif // SLDFEATURETYPECONSTRAINT_H

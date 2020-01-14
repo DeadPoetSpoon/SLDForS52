@@ -11,8 +11,8 @@ private:
     ///
     /// \brief se_Name 必要元素;
     ///
-    SeName* se_Name = nullptr;
-    SeDescription* se_Description = nullptr;
+    SeName* _seName = nullptr;
+    SeDescription* _seDescription = nullptr;
 };
 
 #endif // SLDNAMEDSTYLE_H

@@ -9,13 +9,13 @@ public:
     SldRemoteOWS();
 private:
     ///
-    /// \brief sld_Service 必有元素;
+    /// \brief _sldService 必有元素;
     ///
-    SldService* sld_Service = nullptr;
+    SldService* _sldService = nullptr;
     ///
-    /// \brief se_OnlineResource 必有元素;
+    /// \brief _seOnlineResource 必有元素;
     ///
-    SeOnlineResource* se_OnlineResource = nullptr;
+    SeOnlineResource* _seOnlineResource = nullptr;
 };
 
 #endif // SLDREMOTEOWS_H

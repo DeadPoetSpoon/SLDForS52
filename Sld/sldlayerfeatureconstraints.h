@@ -10,7 +10,7 @@ private:
     ///
     /// \brief sld_FeatureTypeConstraints 必有元素;
     ///
-    QList<SldFeatureTypeConstraint*> sld_FeatureTypeConstraints;
+    QList<SldFeatureTypeConstraint*> _sldFeatureTypeConstraints;
 };
 
 #endif // SLDLAYERFEATURECONSTRAINTS_H

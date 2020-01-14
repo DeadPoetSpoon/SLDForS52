@@ -11,8 +11,8 @@ private:
     ///
     /// \brief se_CoverageName 必要属性;
     ///
-    SeCoverageName* se_CoverageName = nullptr;
-    SldCoverageExtent* sld_CoverageExtent = nullptr;
+    SeCoverageName* _seCoverageName = nullptr;
+    SldCoverageExtent* _sldCoverageExtent = nullptr;
 };
 
 #endif // SLDCOVERAGECONSTRAINT_H

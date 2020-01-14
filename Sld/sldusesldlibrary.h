@@ -8,9 +8,9 @@ public:
     SldUseSLDLibrary();
 private:
     ///
-    /// \brief se_OnlineResource 必有元素;
+    /// \brief _seOnlineResource 必有元素;
     ///
-    SeOnlineResource* se_OnlineResource = nullptr;
+    SeOnlineResource* _seOnlineResource = nullptr;
 };
 
 #endif // SLDUSESLDLIBRARY_H

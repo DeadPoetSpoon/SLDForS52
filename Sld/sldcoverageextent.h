@@ -8,8 +8,8 @@ class SldCoverageExtent:public Element
 public:
     SldCoverageExtent();
 private:
-    QList<SldRangeAxis*> sld_RangeAxiss;
-    SldTimePeriod* sld_TimePeriod = nullptr;
+    QList<SldRangeAxis*> _sldRangeAxiss;
+    SldTimePeriod* _sldTimePeriod = nullptr;
 };
 
 #endif // SLDCOVERAGEEXTENT_H

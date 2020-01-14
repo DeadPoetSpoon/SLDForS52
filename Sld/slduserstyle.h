@@ -13,16 +13,16 @@ public:
     SldUserStyle();
     enum USERSTYLETYPE{FEARURETYPESTYLE,COVERAGESTYLE,ONLINERESOURCE};
 private:
-    SeName* se_Name = nullptr;
-    SeDescription* se_Description = nullptr;
-    SldIsDefault* sld_IsDefault = nullptr;
+    SeName* _seName = nullptr;
+    SeDescription* _seDescription = nullptr;
+    SldIsDefault* _sldIsDefault = nullptr;
     ///
     /// \brief type 三者必选其一;
     ///
     USERSTYLETYPE type = FEARURETYPESTYLE;
-    SeFeatureTypeStyle* se_FeatureTypeStyle = nullptr;
-    SeCoverageStyle* se_CoverageStyle = nullptr;
-    SeOnlineResource* se_OnlineResource = nullptr;
+    SeFeatureTypeStyle* _seFeatureTypeStyle = nullptr;
+    SeCoverageStyle* _seCoverageStyle = nullptr;
+    SeOnlineResource* _seOnlineResource = nullptr;
 };
 
 #endif // SLDUSERSTYLE_H

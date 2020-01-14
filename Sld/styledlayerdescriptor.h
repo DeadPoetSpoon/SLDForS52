@@ -13,11 +13,11 @@ public:
     StyledLayerDescriptor();
     enum LAYERTYPE{NAMED,USER};
 private:
-    SeName* se_Name =  nullptr;
-    SeDescription* se_Description = nullptr;
-    QList<SldUseSLDLibrary*> sld_UseSLDLibrarys;
-    QList<SldNamedLayer*> sld_NamedLayers;
-    QList<SldUserLayer*> sld_UserLayers;
+    SeName* _seName =  nullptr;
+    SeDescription* _seDescription = nullptr;
+    QList<SldUseSLDLibrary*> _sldUseSLDLibrarys;
+    QList<SldNamedLayer*> _sldNamedLayers;
+    QList<SldUserLayer*> _sldUserLayers;
     LAYERTYPE _LayerType = NAMED;
     //必有属性version尚未添加。
 };

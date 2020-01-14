@@ -15,18 +15,18 @@ public:
     enum REMOTEORINLINE{REMOTEOWS,INLINEFEATURE};
     enum CONSTRAINTSTYPE{LFCS,LCCS};
 private:
-    SeName* se_Name = nullptr;
-    SeDescription* se_Description = nullptr;
+    SeName* _seName = nullptr;
+    SeDescription* _seDescription = nullptr;
     REMOTEORINLINE _remotrOrinline = INLINEFEATURE;
     CONSTRAINTSTYPE _constraints = LFCS;
-    SldRemoteOWS* sld_RemoteOWS = nullptr;
-    SldInlineFeature* sld_InlineFeature = nullptr;
-    SldLayerFeatureConstraints* sld_LayerFeatureConstraints = nullptr;
-    SldLayerCoverageConstraints* sld_LayerCoverageConstraints = nullptr;
+    SldRemoteOWS* _sldRemoteOWS = nullptr;
+    SldInlineFeature* _sldInlineFeature = nullptr;
+    SldLayerFeatureConstraints* _sldLayerFeatureConstraints = nullptr;
+    SldLayerCoverageConstraints* _sldLayerCoverageConstraints = nullptr;
     ///
-    /// \brief sld_UserStyles 必有元素;
+    /// \brief _sldUserStyles 必有元素;
     ///
-    QList<SldUserStyle*> sld_UserStyles;
+    QList<SldUserStyle*> _sldUserStyles;
 };
 
 #endif // SLDUSERLAYER_H
