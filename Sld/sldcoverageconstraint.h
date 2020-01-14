@@ -1,8 +1,8 @@
 #ifndef SLDCOVERAGECONSTRAINT_H
 #define SLDCOVERAGECONSTRAINT_H
-#include "element.h"
-#include "secoveragename.h"
-#include "sldcoverageextent.h"
+#include "Xml/element.h"
+#include "Se/secoveragename.h"
+#include "Sld/sldcoverageextent.h"
 class SldCoverageConstraint:public Element
 {
 public:

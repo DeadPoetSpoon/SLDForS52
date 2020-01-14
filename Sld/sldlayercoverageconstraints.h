@@ -1,7 +1,7 @@
 #ifndef SLDLAYERCOVERAGECONSTRAINTS_H
 #define SLDLAYERCOVERAGECONSTRAINTS_H
-#include "element.h"
-#include "sldcoverageconstraint.h"
+#include "Xml/element.h"
+#include "Sld/sldcoverageconstraint.h"
 class SldLayerCoverageConstraints:public Element
 {
 public:

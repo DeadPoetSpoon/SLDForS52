@@ -1,9 +1,9 @@
 #ifndef SECOVERAGESTYLE_H
 #define SECOVERAGESTYLE_H
-#include "element.h"
-#include "sename.h"
-#include "sedescription.h"
-#include "secoveragename.h"
+#include "Xml/element.h"
+#include "Se/sename.h"
+#include "Se/sedescription.h"
+#include "Se/secoveragename.h"
 class SeCoverageStyle:public Element
 {
 public:

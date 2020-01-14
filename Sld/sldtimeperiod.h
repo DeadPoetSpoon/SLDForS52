@@ -1,6 +1,6 @@
 #ifndef SLDTIMEPERIOD_H
 #define SLDTIMEPERIOD_H
-#include "element.h"
+#include "Xml/element.h"
 
 class SldTimePeriod:public Element
 {

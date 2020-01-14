@@ -1,8 +1,8 @@
 #ifndef SLDREMOTEOWS_H
 #define SLDREMOTEOWS_H
-#include "element.h"
-#include "sldservice.h"
-#include "seonlineresource.h"
+#include "Xml/element.h"
+#include "Sld/sldservice.h"
+#include "Se/seonlineresource.h"
 class SldRemoteOWS:public Element
 {
 public:

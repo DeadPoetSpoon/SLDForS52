@@ -1,6 +1,6 @@
 #ifndef SEONLINERESOURCE_H
 #define SEONLINERESOURCE_H
-#include"element.h"
+#include"Xml/element.h"
 
 class SeOnlineResource:public Element
 {

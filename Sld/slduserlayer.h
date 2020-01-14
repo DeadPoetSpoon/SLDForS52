@@ -1,13 +1,13 @@
 #ifndef SLDUSERLAYER_H
 #define SLDUSERLAYER_H
-#include "element.h"
-#include "sename.h"
-#include "sedescription.h"
-#include "sldremoteows.h"
-#include "sldinlinefeature.h"
-#include "sldlayerfeatureconstraints.h"
-#include "sldlayercoverageconstraints.h"
-#include "slduserstyle.h"
+#include "Xml/element.h"
+#include "Se/sename.h"
+#include "Se/sedescription.h"
+#include "Sld/sldremoteows.h"
+#include "Sld/sldinlinefeature.h"
+#include "Sld/sldlayerfeatureconstraints.h"
+#include "Sld/sldlayercoverageconstraints.h"
+#include "Sld/slduserstyle.h"
 class SldUserLayer:public Element
 {
 public:

@@ -1,6 +1,6 @@
 #ifndef SEFEATURETYPESTYLE_H
 #define SEFEATURETYPESTYLE_H
-#include "element.h"
+#include "Xml/element.h"
 
 class SeFeatureTypeStyle:public Element
 {

@@ -3,7 +3,7 @@
 #define mout qDebug()<<"["<<__FILE__<<":"<<__LINE__<<"]"
 #include <QXmlStreamReader>
 #include <QDebug>
-#include "styledlayerdescriptor.h"
+#include "Sld/styledlayerdescriptor.h"
 class Reader
 {
 public:

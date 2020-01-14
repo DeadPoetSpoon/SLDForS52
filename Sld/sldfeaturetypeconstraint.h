@@ -1,9 +1,9 @@
 #ifndef SLDFEATURETYPECONSTRAINT_H
 #define SLDFEATURETYPECONSTRAINT_H
-#include "element.h"
-#include "sefeaturetypename.h"
-#include "ogcfilter.h"
-#include "sldextent.h"
+#include "Xml/element.h"
+#include "Se/sefeaturetypename.h"
+#include "Ogc/ogcfilter.h"
+#include "Sld/sldextent.h"
 class SldFeatureTypeConstraint:public Element
 {
 public:

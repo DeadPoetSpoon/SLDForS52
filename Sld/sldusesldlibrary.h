@@ -1,7 +1,7 @@
 #ifndef SLDUSESLDLIBRARY_H
 #define SLDUSESLDLIBRARY_H
-#include "element.h"
-#include "seonlineresource.h"
+#include "Xml/element.h"
+#include "Se/seonlineresource.h"
 class SldUseSLDLibrary:public Element
 {
 public:

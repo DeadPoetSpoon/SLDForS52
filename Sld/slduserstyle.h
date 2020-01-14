@@ -1,12 +1,12 @@
 #ifndef SLDUSERSTYLE_H
 #define SLDUSERSTYLE_H
-#include "element.h"
-#include "sename.h"
-#include "sedescription.h"
-#include "sldisdefault.h"
-#include "sefeaturetypestyle.h"
-#include "secoveragestyle.h"
-#include "seonlineresource.h"
+#include "Xml/element.h"
+#include "Se/sename.h"
+#include "Se/sedescription.h"
+#include "Sld/sldisdefault.h"
+#include "Se/sefeaturetypestyle.h"
+#include "Se/secoveragestyle.h"
+#include "Se/seonlineresource.h"
 class SldUserStyle:public Element
 {
 public:

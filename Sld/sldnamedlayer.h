@@ -1,11 +1,11 @@
 #ifndef SLDNAMEDLAYER_H
 #define SLDNAMEDLAYER_H
-#include "element.h"
-#include "sename.h"
-#include "sedescription.h"
-#include "sldlayerfeatureconstraints.h"
-#include "sldnamedstyle.h"
-#include "slduserstyle.h"
+#include "Xml/element.h"
+#include "Se/sename.h"
+#include "Se/sedescription.h"
+#include "Sld/sldlayerfeatureconstraints.h"
+#include "Sld/sldnamedstyle.h"
+#include "Sld/slduserstyle.h"
 class SldNamedLayer:public Element
 {
 public:

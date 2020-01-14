@@ -1,12 +1,12 @@
 #ifndef STYLEDLAYERDESCRIPTOR_H
 #define STYLEDLAYERDESCRIPTOR_H
 #include <QList>
-#include "element.h"
-#include "sename.h"
-#include "sedescription.h"
-#include "sldusesldlibrary.h"
-#include "sldnamedlayer.h"
-#include "slduserlayer.h"
+#include "Xml/element.h"
+#include "Se/sename.h"
+#include "Se/sedescription.h"
+#include "Sld/sldusesldlibrary.h"
+#include "Sld/sldnamedlayer.h"
+#include "Sld/slduserlayer.h"
 class StyledLayerDescriptor:public Element
 {
 public:

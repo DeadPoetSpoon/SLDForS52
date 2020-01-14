@@ -1,6 +1,6 @@
 #ifndef SLDSERVICE_H
 #define SLDSERVICE_H
-#include "element.h"
+#include "Xml/element.h"
 
 class SldService:public Element
 {

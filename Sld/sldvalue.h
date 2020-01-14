@@ -1,6 +1,6 @@
 #ifndef SLDVALUE_H
 #define SLDVALUE_H
-#include "element.h"
+#include "Xml/element.h"
 
 class SldValue:public Element
 {

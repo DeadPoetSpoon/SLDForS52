@@ -1,7 +1,7 @@
 #ifndef SLDLAYERFEATURECONSTRAINTS_H
 #define SLDLAYERFEATURECONSTRAINTS_H
-#include "element.h"
-#include "sldfeaturetypeconstraint.h"
+#include "Xml/element.h"
+#include "Sld/sldfeaturetypeconstraint.h"
 class SldLayerFeatureConstraints:public Element
 {
 public:

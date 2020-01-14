@@ -1,6 +1,6 @@
 #ifndef SEGRAPHIC_H
 #define SEGRAPHIC_H
-#include "element.h"
+#include "Xml/element.h"
 
 class SeGraphic : public Element
 {

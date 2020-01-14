@@ -1,6 +1,6 @@
 #ifndef GMLFEATURECOLLECTION_H
 #define GMLFEATURECOLLECTION_H
-#include "element.h"
+#include "Xml/element.h"
 
 class GmlFeatureCollection:public Element
 {

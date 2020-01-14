@@ -1,6 +1,6 @@
 #ifndef SECOVERAGENAME_H
 #define SECOVERAGENAME_H
-#include "element.h"
+#include "Xml/element.h"
 
 class SeCoverageName:public Element
 {

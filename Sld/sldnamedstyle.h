@@ -1,8 +1,8 @@
 #ifndef SLDNAMEDSTYLE_H
 #define SLDNAMEDSTYLE_H
-#include "element.h"
-#include "sename.h"
-#include "sedescription.h"
+#include "Xml/element.h"
+#include "Se/sename.h"
+#include "Se/sedescription.h"
 class SldNamedStyle:public Element
 {
 public:

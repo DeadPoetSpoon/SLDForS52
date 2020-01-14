@@ -1,8 +1,8 @@
 #ifndef SLDRANGEAXIS_H
 #define SLDRANGEAXIS_H
-#include "element.h"
-#include "sename.h"
-#include "sldvalue.h"
+#include "Xml/element.h"
+#include "Se/sename.h"
+#include "Sld/sldvalue.h"
 class SldRangeAxis:public Element
 {
 public:

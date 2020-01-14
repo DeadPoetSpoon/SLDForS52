@@ -1,6 +1,6 @@
 #ifndef SEFEATURETYPENAME_H
 #define SEFEATURETYPENAME_H
-#include "element.h"
+#include "Xml/element.h"
 
 class SeFeatureTypeName:public Element
 {

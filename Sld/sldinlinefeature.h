@@ -1,7 +1,7 @@
 #ifndef SLDINLINEFEATURE_H
 #define SLDINLINEFEATURE_H
-#include "element.h"
-#include "gmlfeaturecollection.h"
+#include "Xml/element.h"
+#include "Gml/gmlfeaturecollection.h"
 class SldInlineFeature:public Element
 {
 public:

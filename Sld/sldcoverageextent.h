@@ -1,8 +1,8 @@
 #ifndef SLDCOVERAGEEXTENT_H
 #define SLDCOVERAGEEXTENT_H
-#include "element.h"
-#include "sldrangeaxis.h"
-#include "sldtimeperiod.h"
+#include "Xml/element.h"
+#include "Sld/sldrangeaxis.h"
+#include "Sld/sldtimeperiod.h"
 class SldCoverageExtent:public Element
 {
 public:

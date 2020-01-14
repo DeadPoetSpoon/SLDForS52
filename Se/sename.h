@@ -1,6 +1,6 @@
 #ifndef SENAME_H
 #define SENAME_H
-#include "element.h"
+#include "Xml/element.h"
 
 class SeName:public Element
 {
