@@ -10,7 +10,7 @@ class SldNamedLayer:public Element
 {
 public:
     SldNamedLayer();
-    enum STYLETYPE{NAMED,USER};
+    enum STYLETYPE{NAMED,USER,NONESTYLETYPE};
 private:
     ///
     /// \brief se_Name 必有元素;
@@ -18,7 +18,7 @@ private:
     SeName* _seName = nullptr;
     SeDescription* _seDescription = nullptr;
     SldLayerFeatureConstraints* _sldLayerFeatureConstraints = nullptr;
-    STYLETYPE _styleType = NAMED;
+    STYLETYPE _styleType = NONESTYLETYPE;
     QList<SldNamedStyle*> _sldNamedStyles;
     QList<SldUserStyle*> _sldUserStyle;
 };

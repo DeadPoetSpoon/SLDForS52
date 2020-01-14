@@ -18,12 +18,12 @@ class SeRule : public Element
 {
 public:
     SeRule();
-    enum FILTERTYPE{OGC,SE};
+    enum FILTERTYPE{OGC,SE,NONEFILTERTYPE};
 private:
     SeName* _seName = nullptr;
     SeDescription* _seDescription;
     SeLegendGraphic* _seLegendGraphic;
-    FILTERTYPE _filterType = OGC;
+    FILTERTYPE _filterType = NONEFILTERTYPE;
     //两者选一个
     OgcFilter* _ogcFilter;
     SeElseFilter* _seElseFilter;

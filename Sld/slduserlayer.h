@@ -12,13 +12,13 @@ class SldUserLayer:public Element
 {
 public:
     SldUserLayer();
-    enum REMOTEORINLINE{REMOTEOWS,INLINEFEATURE};
-    enum CONSTRAINTSTYPE{LFCS,LCCS};
+    enum REMOTEORINLINE{REMOTEOWS,INLINEFEATURE,NONEREMOTEORINLINE};
+    enum CONSTRAINTSTYPE{LFCS,LCCS,NONECONSTRAINTSTYPE};
 private:
     SeName* _seName = nullptr;
     SeDescription* _seDescription = nullptr;
-    REMOTEORINLINE _remotrOrinline = INLINEFEATURE;
-    CONSTRAINTSTYPE _constraints = LFCS;
+    REMOTEORINLINE _remotrOrinline = NONEREMOTEORINLINE;
+    CONSTRAINTSTYPE _constraints = NONECONSTRAINTSTYPE;
     SldRemoteOWS* _sldRemoteOWS = nullptr;
     SldInlineFeature* _sldInlineFeature = nullptr;
     SldLayerFeatureConstraints* _sldLayerFeatureConstraints = nullptr;

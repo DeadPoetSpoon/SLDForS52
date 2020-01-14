@@ -6,9 +6,9 @@ class SldService:public Element
 {
 public:
     SldService();
-    enum SERVICETYPE{WFS,WCS};
+    enum SERVICETYPE{WFS,WCS,NONESERVICETYPE};
 private:
-    SERVICETYPE _serviceType = WFS;
+    SERVICETYPE _serviceType = NONESERVICETYPE;
 };
 
 #endif // SLDSERVICE_H

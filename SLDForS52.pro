@@ -23,22 +23,35 @@ SOURCES += \
     Se/Attritubes/seuom.cpp \
     Se/Attritubes/seversion.cpp \
     Se/seanchorpoint.cpp \
+    Se/seanchorpointx.cpp \
+    Se/seanchorpointy.cpp \
     Se/sebasesymbolizer.cpp \
     Se/secolorreplacement.cpp \
     Se/secoveragename.cpp \
     Se/secoveragestyle.cpp \
     Se/sedescription.cpp \
     Se/sedisplacement.cpp \
+    Se/sedisplacementx.cpp \
+    Se/sedisplacementy.cpp \
     Se/seelsefilter.cpp \
     Se/seexternalgraphic.cpp \
     Se/sefeaturetypename.cpp \
     Se/sefeaturetypestyle.cpp \
     Se/sefill.cpp \
+    Se/sefont.cpp \
     Se/seformat.cpp \
+    Se/segap.cpp \
     Se/segeometry.cpp \
     Se/segraphic.cpp \
+    Se/segraphicfill.cpp \
+    Se/segraphicstroke.cpp \
+    Se/sehalo.cpp \
+    Se/seinitialgap.cpp \
     Se/seinlinecontent.cpp \
+    Se/selabel.cpp \
+    Se/selabelplacement.cpp \
     Se/selegendgraphic.cpp \
+    Se/selineplacement.cpp \
     Se/selinesymbolizer.cpp \
     Se/semark.cpp \
     Se/semarkindex.cpp \
@@ -49,13 +62,18 @@ SOURCES += \
     Se/seopacity.cpp \
     Se/separametervaluetype.cpp \
     Se/seperpendicularoffset.cpp \
+    Se/sepointplacement.cpp \
+    Se/sepointsymbolizer.cpp \
+    Se/sepolygonsymbolizer.cpp \
     Se/serecode.cpp \
     Se/serotation.cpp \
     Se/serule.cpp \
     Se/sesemantictypeidentifier.cpp \
     Se/sesize.cpp \
     Se/sestroke.cpp \
+    Se/sesvgparameter.cpp \
     Se/sesymbolizer.cpp \
+    Se/setextsymbolizer.cpp \
     Se/sewellknownname.cpp \
     Sld/sldcoverageconstraint.cpp \
     Sld/sldcoverageextent.cpp \
@@ -90,22 +108,35 @@ HEADERS += \
     Se/Attritubes/seuom.h \
     Se/Attritubes/seversion.h \
     Se/seanchorpoint.h \
+    Se/seanchorpointx.h \
+    Se/seanchorpointy.h \
     Se/sebasesymbolizer.h \
     Se/secolorreplacement.h \
     Se/secoveragename.h \
     Se/secoveragestyle.h \
     Se/sedescription.h \
     Se/sedisplacement.h \
+    Se/sedisplacementx.h \
+    Se/sedisplacementy.h \
     Se/seelsefilter.h \
     Se/seexternalgraphic.h \
     Se/sefeaturetypename.h \
     Se/sefeaturetypestyle.h \
     Se/sefill.h \
+    Se/sefont.h \
     Se/seformat.h \
+    Se/segap.h \
     Se/segeometry.h \
     Se/segraphic.h \
+    Se/segraphicfill.h \
+    Se/segraphicstroke.h \
+    Se/sehalo.h \
+    Se/seinitialgap.h \
     Se/seinlinecontent.h \
+    Se/selabel.h \
+    Se/selabelplacement.h \
     Se/selegendgraphic.h \
+    Se/selineplacement.h \
     Se/selinesymbolizer.h \
     Se/semark.h \
     Se/semarkindex.h \
@@ -116,13 +147,18 @@ HEADERS += \
     Se/seopacity.h \
     Se/separametervaluetype.h \
     Se/seperpendicularoffset.h \
+    Se/sepointplacement.h \
+    Se/sepointsymbolizer.h \
+    Se/sepolygonsymbolizer.h \
     Se/serecode.h \
     Se/serotation.h \
     Se/serule.h \
     Se/sesemantictypeidentifier.h \
     Se/sesize.h \
     Se/sestroke.h \
+    Se/sesvgparameter.h \
     Se/sesymbolizer.h \
+    Se/setextsymbolizer.h \
     Se/sewellknownname.h \
     Sld/sldcoverageconstraint.h \
     Sld/sldcoverageextent.h \

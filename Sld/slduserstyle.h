@@ -11,7 +11,7 @@ class SldUserStyle:public Element
 {
 public:
     SldUserStyle();
-    enum USERSTYLETYPE{FEARURETYPESTYLE,COVERAGESTYLE,ONLINERESOURCE};
+    enum USERSTYLETYPE{FEARURETYPESTYLE,COVERAGESTYLE,ONLINERESOURCE,NONEUSERSTYLETYPE};
 private:
     SeName* _seName = nullptr;
     SeDescription* _seDescription = nullptr;
@@ -19,7 +19,7 @@ private:
     ///
     /// \brief type 三者必选其一;
     ///
-    USERSTYLETYPE type = FEARURETYPESTYLE;
+    USERSTYLETYPE type = NONEUSERSTYLETYPE;
     SeFeatureTypeStyle* _seFeatureTypeStyle = nullptr;
     SeCoverageStyle* _seCoverageStyle = nullptr;
     SeOnlineResource* _seOnlineResource = nullptr;

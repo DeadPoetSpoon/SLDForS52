@@ -1,13 +1,13 @@
-#ifndef SESIZE_H
-#define SESIZE_H
+#ifndef SEANCHORPOINTY_H
+#define SEANCHORPOINTY_H
 #include "Xml/element.h"
 #include "Se/separametervaluetype.h"
-class SeSize : public Element
+class SeAnchorPointY : public Element
 {
 public:
-    SeSize();
+    SeAnchorPointY();
 private:
     SeParameterValueType* _seParameterValueType = nullptr;
 };
 
-#endif // SESIZE_H
+#endif // SEANCHORPOINTY_H
