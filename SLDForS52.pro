@@ -26,7 +26,12 @@ SOURCES += \
     Se/seanchorpointx.cpp \
     Se/seanchorpointy.cpp \
     Se/sebasesymbolizer.cpp \
+    Se/sebluechannel.cpp \
+    Se/secategorize.cpp \
+    Se/sechannelselection.cpp \
+    Se/secolormap.cpp \
     Se/secolorreplacement.cpp \
+    Se/secontrastenhancement.cpp \
     Se/secoveragename.cpp \
     Se/secoveragestyle.cpp \
     Se/sedescription.cpp \
@@ -40,14 +45,23 @@ SOURCES += \
     Se/sefill.cpp \
     Se/sefont.cpp \
     Se/seformat.cpp \
+    Se/segammavalue.cpp \
     Se/segap.cpp \
+    Se/segeneralizeline.cpp \
     Se/segeometry.cpp \
     Se/segraphic.cpp \
     Se/segraphicfill.cpp \
     Se/segraphicstroke.cpp \
+    Se/segraychannel.cpp \
+    Se/segreenchannel.cpp \
     Se/sehalo.cpp \
+    Se/sehistogram.cpp \
+    Se/seimageoutline.cpp \
     Se/seinitialgap.cpp \
     Se/seinlinecontent.cpp \
+    Se/seinterpolate.cpp \
+    Se/seisaligned.cpp \
+    Se/seisrepeated.cpp \
     Se/selabel.cpp \
     Se/selabelplacement.cpp \
     Se/selegendgraphic.cpp \
@@ -58,18 +72,25 @@ SOURCES += \
     Se/semaxscaledenominator.cpp \
     Se/seminscaledenominator.cpp \
     Se/sename.cpp \
+    Se/senormalize.cpp \
     Se/seonlineresource.cpp \
     Se/seopacity.cpp \
+    Se/seoverlapbehavior.cpp \
     Se/separametervaluetype.cpp \
     Se/seperpendicularoffset.cpp \
     Se/sepointplacement.cpp \
     Se/sepointsymbolizer.cpp \
     Se/sepolygonsymbolizer.cpp \
+    Se/seradius.cpp \
+    Se/serastersymbolizer.cpp \
     Se/serecode.cpp \
+    Se/seredchannel.cpp \
     Se/serotation.cpp \
     Se/serule.cpp \
     Se/sesemantictypeidentifier.cpp \
+    Se/seshadedrelief.cpp \
     Se/sesize.cpp \
+    Se/sesourcechannelname.cpp \
     Se/sestroke.cpp \
     Se/sesvgparameter.cpp \
     Se/sesymbolizer.cpp \
@@ -111,7 +132,12 @@ HEADERS += \
     Se/seanchorpointx.h \
     Se/seanchorpointy.h \
     Se/sebasesymbolizer.h \
+    Se/sebluechannel.h \
+    Se/secategorize.h \
+    Se/sechannelselection.h \
+    Se/secolormap.h \
     Se/secolorreplacement.h \
+    Se/secontrastenhancement.h \
     Se/secoveragename.h \
     Se/secoveragestyle.h \
     Se/sedescription.h \
@@ -125,14 +151,23 @@ HEADERS += \
     Se/sefill.h \
     Se/sefont.h \
     Se/seformat.h \
+    Se/segammavalue.h \
     Se/segap.h \
+    Se/segeneralizeline.h \
     Se/segeometry.h \
     Se/segraphic.h \
     Se/segraphicfill.h \
     Se/segraphicstroke.h \
+    Se/segraychannel.h \
+    Se/segreenchannel.h \
     Se/sehalo.h \
+    Se/sehistogram.h \
+    Se/seimageoutline.h \
     Se/seinitialgap.h \
     Se/seinlinecontent.h \
+    Se/seinterpolate.h \
+    Se/seisaligned.h \
+    Se/seisrepeated.h \
     Se/selabel.h \
     Se/selabelplacement.h \
     Se/selegendgraphic.h \
@@ -143,18 +178,25 @@ HEADERS += \
     Se/semaxscaledenominator.h \
     Se/seminscaledenominator.h \
     Se/sename.h \
+    Se/senormalize.h \
     Se/seonlineresource.h \
     Se/seopacity.h \
+    Se/seoverlapbehavior.h \
     Se/separametervaluetype.h \
     Se/seperpendicularoffset.h \
     Se/sepointplacement.h \
     Se/sepointsymbolizer.h \
     Se/sepolygonsymbolizer.h \
+    Se/seradius.h \
+    Se/serastersymbolizer.h \
     Se/serecode.h \
+    Se/seredchannel.h \
     Se/serotation.h \
     Se/serule.h \
     Se/sesemantictypeidentifier.h \
+    Se/seshadedrelief.h \
     Se/sesize.h \
+    Se/sesourcechannelname.h \
     Se/sestroke.h \
     Se/sesvgparameter.h \
     Se/sesymbolizer.h \
