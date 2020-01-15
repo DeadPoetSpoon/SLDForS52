@@ -1,8 +1,13 @@
 #ifndef SLDCOVERAGECONSTRAINT_H
 #define SLDCOVERAGECONSTRAINT_H
 #include "Xml/element.h"
-#include "Se/secoveragename.h"
+#include "Se/Common/secoveragename.h"
 #include "Sld/sldcoverageextent.h"
+///
+/// \brief The SldCoverageConstraint class
+/// A CoverageConstraint identifies a specific coverage offering and supplies time and range selection.
+/// CoverageConstraint标识一个特定的覆盖范围，提供和供应时间和范围的选择。
+///
 class SldCoverageConstraint:public Element
 {
 public:

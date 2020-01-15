@@ -2,6 +2,10 @@
 #define SLDINLINEFEATURE_H
 #include "Xml/element.h"
 #include "Gml/gmlfeaturecollection.h"
+///
+/// \brief The SldInlineFeature class
+/// 内联要素
+///
 class SldInlineFeature:public Element
 {
 public:

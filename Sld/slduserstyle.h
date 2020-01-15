@@ -1,12 +1,18 @@
 #ifndef SLDUSERSTYLE_H
 #define SLDUSERSTYLE_H
 #include "Xml/element.h"
-#include "Se/sename.h"
-#include "Se/sedescription.h"
+#include "Se/Common/sename.h"
+#include "Se/Common/sedescription.h"
 #include "Sld/sldisdefault.h"
-#include "Se/sefeaturetypestyle.h"
-#include "Se/secoveragestyle.h"
-#include "Se/seonlineresource.h"
+#include "Se/FeatureStyle/sefeaturetypestyle.h"
+#include "Se/FeatureStyle/secoveragestyle.h"
+#include "Se/Common/seonlineresource.h"
+///
+/// \brief The SldUserStyle class
+/// A UserStyle allows user-defined styling and is semantically equivalent to a
+/// WMS named style. External FeatureTypeStyles or CoverageStyles can be linked using an OnlineResource-element
+/// UserStyle允许用户定义样式，在语义上等同于WMS命名样式。外部功能类型样式或CoverageStyles可以使用一个在线资源元素进行链接
+///
 class SldUserStyle:public Element
 {
 public:

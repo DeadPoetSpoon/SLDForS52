@@ -1,0 +1,38 @@
+#ifndef SERULE_H
+#define SERULE_H
+#include "Xml/element.h"
+#include "Se/Common/sename.h"
+#include "Se/Common/sedescription.h"
+#include "Se/FeatureStyle/selegendgraphic.h"
+#include "Ogc/ogcfilter.h"
+#include "Se/FeatureStyle/seelsefilter.h"
+#include "Se/FeatureStyle/seminscaledenominator.h"
+#include "Se/FeatureStyle/semaxscaledenominator.h"
+#include "Se/Symbolizer/sesymbolizer.h"
+///
+/// \brief The SeRule class
+/// A Rule is used to attach property/scale conditions to and group the individual symbols used for rendering.
+/// Rule用于附加属性/缩放条件，并将用于呈现的单个符号分组。
+///
+class SeRule : public Element
+{
+public:
+    SeRule();
+    enum FILTERTYPE{OGC,SE,NONEFILTERTYPE};
+private:
+    SeName* _seName = nullptr;
+    SeDescription* _seDescription;
+    SeLegendGraphic* _seLegendGraphic;
+    FILTERTYPE _filterType = NONEFILTERTYPE;
+    //两者选一个
+    OgcFilter* _ogcFilter;
+    SeElseFilter* _seElseFilter;
+    SeMinScaleDenominator* _seMinScaleDenominator;
+    SeMaxScaleDenominator* _seMaxScaleDenominator;
+    ///
+    /// \brief _seSymbolizers 必有元素;
+    ///
+    QList<SeSymbolizer*> _seSymbolizers;
+};
+
+#endif // SERULE_H

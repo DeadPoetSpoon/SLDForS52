@@ -1,6 +1,6 @@
 #ifndef ELEMENT_H
 #define ELEMENT_H
-#include <QList>
+#include "qlist.h"
 #include "attribute.h"
 ///
 /// \brief The Element class

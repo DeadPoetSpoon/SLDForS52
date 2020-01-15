@@ -1,13 +1,18 @@
 #ifndef SLDUSERLAYER_H
 #define SLDUSERLAYER_H
 #include "Xml/element.h"
-#include "Se/sename.h"
-#include "Se/sedescription.h"
+#include "Se/Common/sename.h"
+#include "Se/Common/sedescription.h"
 #include "Sld/sldremoteows.h"
 #include "Sld/sldinlinefeature.h"
 #include "Sld/sldlayerfeatureconstraints.h"
 #include "Sld/sldlayercoverageconstraints.h"
 #include "Sld/slduserstyle.h"
+///
+/// \brief The SldUserLayer class
+/// A UserLayer allows a user-defined layer to be built from WFS and WCS data.
+/// 用户层允许从WFS和WCS数据构建用户定义的层。
+///
 class SldUserLayer:public Element
 {
 public:

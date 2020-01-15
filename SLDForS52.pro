@@ -20,82 +20,87 @@ SOURCES += \
     Ogc/ogcexpression.cpp \
     Ogc/ogcfilter.cpp \
     Ogc/ogcpropertyname.cpp \
+    Se/Attritubes/seencoding.cpp \
     Se/Attritubes/seuom.cpp \
     Se/Attritubes/seversion.cpp \
-    Se/seanchorpoint.cpp \
-    Se/seanchorpointx.cpp \
-    Se/seanchorpointy.cpp \
-    Se/sebasesymbolizer.cpp \
-    Se/sebluechannel.cpp \
-    Se/secategorize.cpp \
-    Se/sechannelselection.cpp \
-    Se/secolormap.cpp \
-    Se/secolorreplacement.cpp \
-    Se/secontrastenhancement.cpp \
-    Se/secoveragename.cpp \
-    Se/secoveragestyle.cpp \
-    Se/sedescription.cpp \
-    Se/sedisplacement.cpp \
-    Se/sedisplacementx.cpp \
-    Se/sedisplacementy.cpp \
-    Se/seelsefilter.cpp \
-    Se/seexternalgraphic.cpp \
-    Se/sefeaturetypename.cpp \
-    Se/sefeaturetypestyle.cpp \
-    Se/sefill.cpp \
-    Se/sefont.cpp \
-    Se/seformat.cpp \
-    Se/segammavalue.cpp \
-    Se/segap.cpp \
-    Se/segeneralizeline.cpp \
-    Se/segeometry.cpp \
-    Se/segraphic.cpp \
-    Se/segraphicfill.cpp \
-    Se/segraphicstroke.cpp \
-    Se/segraychannel.cpp \
-    Se/segreenchannel.cpp \
-    Se/sehalo.cpp \
-    Se/sehistogram.cpp \
-    Se/seimageoutline.cpp \
-    Se/seinitialgap.cpp \
-    Se/seinlinecontent.cpp \
-    Se/seinterpolate.cpp \
-    Se/seisaligned.cpp \
-    Se/seisrepeated.cpp \
-    Se/selabel.cpp \
-    Se/selabelplacement.cpp \
-    Se/selegendgraphic.cpp \
-    Se/selineplacement.cpp \
-    Se/selinesymbolizer.cpp \
-    Se/semark.cpp \
-    Se/semarkindex.cpp \
-    Se/semaxscaledenominator.cpp \
-    Se/seminscaledenominator.cpp \
-    Se/sename.cpp \
-    Se/senormalize.cpp \
-    Se/seonlineresource.cpp \
-    Se/seopacity.cpp \
-    Se/seoverlapbehavior.cpp \
-    Se/separametervaluetype.cpp \
-    Se/seperpendicularoffset.cpp \
-    Se/sepointplacement.cpp \
-    Se/sepointsymbolizer.cpp \
-    Se/sepolygonsymbolizer.cpp \
-    Se/seradius.cpp \
-    Se/serastersymbolizer.cpp \
-    Se/serecode.cpp \
-    Se/seredchannel.cpp \
-    Se/serotation.cpp \
-    Se/serule.cpp \
-    Se/sesemantictypeidentifier.cpp \
-    Se/seshadedrelief.cpp \
-    Se/sesize.cpp \
-    Se/sesourcechannelname.cpp \
-    Se/sestroke.cpp \
-    Se/sesvgparameter.cpp \
-    Se/sesymbolizer.cpp \
-    Se/setextsymbolizer.cpp \
-    Se/sewellknownname.cpp \
+    Se/Common/seabstract.cpp \
+    Se/Common/secoveragename.cpp \
+    Se/Common/sedescription.cpp \
+    Se/Common/sefeaturetypename.cpp \
+    Se/Common/seinlinecontent.cpp \
+    Se/Common/sename.cpp \
+    Se/Common/seonlineresource.cpp \
+    Se/Common/setitle.cpp \
+    Se/FeatureStyle/secoveragestyle.cpp \
+    Se/FeatureStyle/seelsefilter.cpp \
+    Se/FeatureStyle/sefeaturetypestyle.cpp \
+    Se/FeatureStyle/selegendgraphic.cpp \
+    Se/FeatureStyle/semaxscaledenominator.cpp \
+    Se/FeatureStyle/seminscaledenominator.cpp \
+    Se/FeatureStyle/serule.cpp \
+    Se/FeatureStyle/sesemantictypeidentifier.cpp \
+    Se/Symbolizer/seanchorpoint.cpp \
+    Se/Symbolizer/seanchorpointx.cpp \
+    Se/Symbolizer/seanchorpointy.cpp \
+    Se/Symbolizer/sebasesymbolizer.cpp \
+    Se/Symbolizer/sebluechannel.cpp \
+    Se/Symbolizer/sebrightnessonly.cpp \
+    Se/Symbolizer/secategorize.cpp \
+    Se/Symbolizer/sechannelselection.cpp \
+    Se/Symbolizer/secolormap.cpp \
+    Se/Symbolizer/secolorreplacement.cpp \
+    Se/Symbolizer/secontrastenhancement.cpp \
+    Se/Symbolizer/sedisplacement.cpp \
+    Se/Symbolizer/sedisplacementx.cpp \
+    Se/Symbolizer/sedisplacementy.cpp \
+    Se/Symbolizer/seexternalgraphic.cpp \
+    Se/Symbolizer/sefill.cpp \
+    Se/Symbolizer/sefont.cpp \
+    Se/Symbolizer/seformat.cpp \
+    Se/Symbolizer/segammavalue.cpp \
+    Se/Symbolizer/segap.cpp \
+    Se/Symbolizer/segeneralizeline.cpp \
+    Se/Symbolizer/segeometry.cpp \
+    Se/Symbolizer/segraphic.cpp \
+    Se/Symbolizer/segraphicfill.cpp \
+    Se/Symbolizer/segraphicstroke.cpp \
+    Se/Symbolizer/segraychannel.cpp \
+    Se/Symbolizer/segreenchannel.cpp \
+    Se/Symbolizer/sehalo.cpp \
+    Se/Symbolizer/sehistogram.cpp \
+    Se/Symbolizer/seimageoutline.cpp \
+    Se/Symbolizer/seinitialgap.cpp \
+    Se/Symbolizer/seinterpolate.cpp \
+    Se/Symbolizer/seisaligned.cpp \
+    Se/Symbolizer/seisrepeated.cpp \
+    Se/Symbolizer/selabel.cpp \
+    Se/Symbolizer/selabelplacement.cpp \
+    Se/Symbolizer/selineplacement.cpp \
+    Se/Symbolizer/selinesymbolizer.cpp \
+    Se/Symbolizer/semark.cpp \
+    Se/Symbolizer/semarkindex.cpp \
+    Se/Symbolizer/senormalize.cpp \
+    Se/Symbolizer/seopacity.cpp \
+    Se/Symbolizer/seoverlapbehavior.cpp \
+    Se/Symbolizer/separametervaluetype.cpp \
+    Se/Symbolizer/seperpendicularoffset.cpp \
+    Se/Symbolizer/sepointplacement.cpp \
+    Se/Symbolizer/sepointsymbolizer.cpp \
+    Se/Symbolizer/sepolygonsymbolizer.cpp \
+    Se/Symbolizer/seradius.cpp \
+    Se/Symbolizer/serastersymbolizer.cpp \
+    Se/Symbolizer/serecode.cpp \
+    Se/Symbolizer/seredchannel.cpp \
+    Se/Symbolizer/serelieffactor.cpp \
+    Se/Symbolizer/serotation.cpp \
+    Se/Symbolizer/seshadedrelief.cpp \
+    Se/Symbolizer/sesize.cpp \
+    Se/Symbolizer/sesourcechannelname.cpp \
+    Se/Symbolizer/sestroke.cpp \
+    Se/Symbolizer/sesvgparameter.cpp \
+    Se/Symbolizer/sesymbolizer.cpp \
+    Se/Symbolizer/setextsymbolizer.cpp \
+    Se/Symbolizer/sewellknownname.cpp \
     Sld/sldcoverageconstraint.cpp \
     Sld/sldcoverageextent.cpp \
     Sld/sldextent.cpp \
@@ -115,6 +120,13 @@ SOURCES += \
     Sld/sldusesldlibrary.cpp \
     Sld/sldvalue.cpp \
     Sld/styledlayerdescriptor.cpp \
+    Xlink/Attritubes/xlinkactuate.cpp \
+    Xlink/Attritubes/xlinkarcrole.cpp \
+    Xlink/Attritubes/xlinkhref.cpp \
+    Xlink/Attritubes/xlinkrole.cpp \
+    Xlink/Attritubes/xlinkshow.cpp \
+    Xlink/Attritubes/xlinktitle.cpp \
+    Xlink/Attritubes/xlinktype.cpp \
     Xml/attribute.cpp \
     Xml/element.cpp \
     Xml/reader.cpp \
@@ -126,82 +138,87 @@ HEADERS += \
     Ogc/ogcexpression.h \
     Ogc/ogcfilter.h \
     Ogc/ogcpropertyname.h \
+    Se/Attritubes/seencoding.h \
     Se/Attritubes/seuom.h \
     Se/Attritubes/seversion.h \
-    Se/seanchorpoint.h \
-    Se/seanchorpointx.h \
-    Se/seanchorpointy.h \
-    Se/sebasesymbolizer.h \
-    Se/sebluechannel.h \
-    Se/secategorize.h \
-    Se/sechannelselection.h \
-    Se/secolormap.h \
-    Se/secolorreplacement.h \
-    Se/secontrastenhancement.h \
-    Se/secoveragename.h \
-    Se/secoveragestyle.h \
-    Se/sedescription.h \
-    Se/sedisplacement.h \
-    Se/sedisplacementx.h \
-    Se/sedisplacementy.h \
-    Se/seelsefilter.h \
-    Se/seexternalgraphic.h \
-    Se/sefeaturetypename.h \
-    Se/sefeaturetypestyle.h \
-    Se/sefill.h \
-    Se/sefont.h \
-    Se/seformat.h \
-    Se/segammavalue.h \
-    Se/segap.h \
-    Se/segeneralizeline.h \
-    Se/segeometry.h \
-    Se/segraphic.h \
-    Se/segraphicfill.h \
-    Se/segraphicstroke.h \
-    Se/segraychannel.h \
-    Se/segreenchannel.h \
-    Se/sehalo.h \
-    Se/sehistogram.h \
-    Se/seimageoutline.h \
-    Se/seinitialgap.h \
-    Se/seinlinecontent.h \
-    Se/seinterpolate.h \
-    Se/seisaligned.h \
-    Se/seisrepeated.h \
-    Se/selabel.h \
-    Se/selabelplacement.h \
-    Se/selegendgraphic.h \
-    Se/selineplacement.h \
-    Se/selinesymbolizer.h \
-    Se/semark.h \
-    Se/semarkindex.h \
-    Se/semaxscaledenominator.h \
-    Se/seminscaledenominator.h \
-    Se/sename.h \
-    Se/senormalize.h \
-    Se/seonlineresource.h \
-    Se/seopacity.h \
-    Se/seoverlapbehavior.h \
-    Se/separametervaluetype.h \
-    Se/seperpendicularoffset.h \
-    Se/sepointplacement.h \
-    Se/sepointsymbolizer.h \
-    Se/sepolygonsymbolizer.h \
-    Se/seradius.h \
-    Se/serastersymbolizer.h \
-    Se/serecode.h \
-    Se/seredchannel.h \
-    Se/serotation.h \
-    Se/serule.h \
-    Se/sesemantictypeidentifier.h \
-    Se/seshadedrelief.h \
-    Se/sesize.h \
-    Se/sesourcechannelname.h \
-    Se/sestroke.h \
-    Se/sesvgparameter.h \
-    Se/sesymbolizer.h \
-    Se/setextsymbolizer.h \
-    Se/sewellknownname.h \
+    Se/Common/seabstract.h \
+    Se/Common/secoveragename.h \
+    Se/Common/sedescription.h \
+    Se/Common/sefeaturetypename.h \
+    Se/Common/seinlinecontent.h \
+    Se/Common/sename.h \
+    Se/Common/seonlineresource.h \
+    Se/Common/setitle.h \
+    Se/FeatureStyle/secoveragestyle.h \
+    Se/FeatureStyle/seelsefilter.h \
+    Se/FeatureStyle/sefeaturetypestyle.h \
+    Se/FeatureStyle/selegendgraphic.h \
+    Se/FeatureStyle/semaxscaledenominator.h \
+    Se/FeatureStyle/seminscaledenominator.h \
+    Se/FeatureStyle/serule.h \
+    Se/FeatureStyle/sesemantictypeidentifier.h \
+    Se/Symbolizer/seanchorpoint.h \
+    Se/Symbolizer/seanchorpointx.h \
+    Se/Symbolizer/seanchorpointy.h \
+    Se/Symbolizer/sebasesymbolizer.h \
+    Se/Symbolizer/sebluechannel.h \
+    Se/Symbolizer/sebrightnessonly.h \
+    Se/Symbolizer/secategorize.h \
+    Se/Symbolizer/sechannelselection.h \
+    Se/Symbolizer/secolormap.h \
+    Se/Symbolizer/secolorreplacement.h \
+    Se/Symbolizer/secontrastenhancement.h \
+    Se/Symbolizer/sedisplacement.h \
+    Se/Symbolizer/sedisplacementx.h \
+    Se/Symbolizer/sedisplacementy.h \
+    Se/Symbolizer/seexternalgraphic.h \
+    Se/Symbolizer/sefill.h \
+    Se/Symbolizer/sefont.h \
+    Se/Symbolizer/seformat.h \
+    Se/Symbolizer/segammavalue.h \
+    Se/Symbolizer/segap.h \
+    Se/Symbolizer/segeneralizeline.h \
+    Se/Symbolizer/segeometry.h \
+    Se/Symbolizer/segraphic.h \
+    Se/Symbolizer/segraphicfill.h \
+    Se/Symbolizer/segraphicstroke.h \
+    Se/Symbolizer/segraychannel.h \
+    Se/Symbolizer/segreenchannel.h \
+    Se/Symbolizer/sehalo.h \
+    Se/Symbolizer/sehistogram.h \
+    Se/Symbolizer/seimageoutline.h \
+    Se/Symbolizer/seinitialgap.h \
+    Se/Symbolizer/seinterpolate.h \
+    Se/Symbolizer/seisaligned.h \
+    Se/Symbolizer/seisrepeated.h \
+    Se/Symbolizer/selabel.h \
+    Se/Symbolizer/selabelplacement.h \
+    Se/Symbolizer/selineplacement.h \
+    Se/Symbolizer/selinesymbolizer.h \
+    Se/Symbolizer/semark.h \
+    Se/Symbolizer/semarkindex.h \
+    Se/Symbolizer/senormalize.h \
+    Se/Symbolizer/seopacity.h \
+    Se/Symbolizer/seoverlapbehavior.h \
+    Se/Symbolizer/separametervaluetype.h \
+    Se/Symbolizer/seperpendicularoffset.h \
+    Se/Symbolizer/sepointplacement.h \
+    Se/Symbolizer/sepointsymbolizer.h \
+    Se/Symbolizer/sepolygonsymbolizer.h \
+    Se/Symbolizer/seradius.h \
+    Se/Symbolizer/serastersymbolizer.h \
+    Se/Symbolizer/serecode.h \
+    Se/Symbolizer/seredchannel.h \
+    Se/Symbolizer/serelieffactor.h \
+    Se/Symbolizer/serotation.h \
+    Se/Symbolizer/seshadedrelief.h \
+    Se/Symbolizer/sesize.h \
+    Se/Symbolizer/sesourcechannelname.h \
+    Se/Symbolizer/sestroke.h \
+    Se/Symbolizer/sesvgparameter.h \
+    Se/Symbolizer/sesymbolizer.h \
+    Se/Symbolizer/setextsymbolizer.h \
+    Se/Symbolizer/sewellknownname.h \
     Sld/sldcoverageconstraint.h \
     Sld/sldcoverageextent.h \
     Sld/sldextent.h \
@@ -221,6 +238,13 @@ HEADERS += \
     Sld/sldusesldlibrary.h \
     Sld/sldvalue.h \
     Sld/styledlayerdescriptor.h \
+    Xlink/Attritubes/xlinkactuate.h \
+    Xlink/Attritubes/xlinkarcrole.h \
+    Xlink/Attritubes/xlinkhref.h \
+    Xlink/Attritubes/xlinkrole.h \
+    Xlink/Attritubes/xlinkshow.h \
+    Xlink/Attritubes/xlinktitle.h \
+    Xlink/Attritubes/xlinktype.h \
     Xml/attribute.h \
     Xml/element.h \
     Xml/reader.h \
@@ -233,3 +257,5 @@ FORMS += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+

@@ -1,8 +1,13 @@
 #ifndef SLDNAMEDSTYLE_H
 #define SLDNAMEDSTYLE_H
 #include "Xml/element.h"
-#include "Se/sename.h"
-#include "Se/sedescription.h"
+#include "Se/Common/sename.h"
+#include "Se/Common/sedescription.h"
+///
+/// \brief The SldNamedStyle class
+/// A NamedStyle is used to refer to a style that has a name in a WMS.
+/// NamedStyle用于引用WMS中有名称的样式。
+///
 class SldNamedStyle:public Element
 {
 public:

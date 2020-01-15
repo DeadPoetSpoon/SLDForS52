@@ -2,7 +2,12 @@
 #define SLDREMOTEOWS_H
 #include "Xml/element.h"
 #include "Sld/sldservice.h"
-#include "Se/seonlineresource.h"
+#include "Se/Common/seonlineresource.h"
+///
+/// \brief The SldRemoteOWS class
+/// A RemoteOWS gives a reference to a remote WFS/WCS/other-OWS server.
+/// RemoteOWS提供对远程WFS/WCS/other-OWS服务器的引用。
+///
 class SldRemoteOWS:public Element
 {
 public:
