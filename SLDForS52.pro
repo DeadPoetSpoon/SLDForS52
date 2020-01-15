@@ -17,10 +17,15 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     Gml/gmlfeaturecollection.cpp \
-    Ogc/ogcexpression.cpp \
-    Ogc/ogcfilter.cpp \
-    Ogc/ogcpropertyname.cpp \
+    Ogc/Expr/ogcexpression.cpp \
+    Ogc/Expr/ogcpropertyname.cpp \
+    Ogc/Filter/ogcfilter.cpp \
     Se/Attritubes/seencoding.cpp \
+    Se/Attritubes/sefallbackvalue.cpp \
+    Se/Attritubes/semethod.cpp \
+    Se/Attritubes/semode.cpp \
+    Se/Attritubes/senameattr.cpp \
+    Se/Attritubes/sethreshholdsbelongto.cpp \
     Se/Attritubes/seuom.cpp \
     Se/Attritubes/seversion.cpp \
     Se/Common/seabstract.cpp \
@@ -50,6 +55,7 @@ SOURCES += \
     Se/Symbolizer/secolormap.cpp \
     Se/Symbolizer/secolorreplacement.cpp \
     Se/Symbolizer/secontrastenhancement.cpp \
+    Se/Symbolizer/sedata.cpp \
     Se/Symbolizer/sedisplacement.cpp \
     Se/Symbolizer/sedisplacementx.cpp \
     Se/Symbolizer/sedisplacementy.cpp \
@@ -57,6 +63,7 @@ SOURCES += \
     Se/Symbolizer/sefill.cpp \
     Se/Symbolizer/sefont.cpp \
     Se/Symbolizer/seformat.cpp \
+    Se/Symbolizer/sefunction.cpp \
     Se/Symbolizer/segammavalue.cpp \
     Se/Symbolizer/segap.cpp \
     Se/Symbolizer/segeneralizeline.cpp \
@@ -71,18 +78,21 @@ SOURCES += \
     Se/Symbolizer/seimageoutline.cpp \
     Se/Symbolizer/seinitialgap.cpp \
     Se/Symbolizer/seinterpolate.cpp \
+    Se/Symbolizer/seinterpolationpoint.cpp \
     Se/Symbolizer/seisaligned.cpp \
     Se/Symbolizer/seisrepeated.cpp \
     Se/Symbolizer/selabel.cpp \
     Se/Symbolizer/selabelplacement.cpp \
     Se/Symbolizer/selineplacement.cpp \
     Se/Symbolizer/selinesymbolizer.cpp \
+    Se/Symbolizer/selookupvalue.cpp \
+    Se/Symbolizer/semapitem.cpp \
     Se/Symbolizer/semark.cpp \
     Se/Symbolizer/semarkindex.cpp \
     Se/Symbolizer/senormalize.cpp \
     Se/Symbolizer/seopacity.cpp \
     Se/Symbolizer/seoverlapbehavior.cpp \
-    Se/Symbolizer/separametervaluetype.cpp \
+    Se/Symbolizer/separametervalue.cpp \
     Se/Symbolizer/seperpendicularoffset.cpp \
     Se/Symbolizer/sepointplacement.cpp \
     Se/Symbolizer/sepointsymbolizer.cpp \
@@ -100,6 +110,8 @@ SOURCES += \
     Se/Symbolizer/sesvgparameter.cpp \
     Se/Symbolizer/sesymbolizer.cpp \
     Se/Symbolizer/setextsymbolizer.cpp \
+    Se/Symbolizer/sethreshold.cpp \
+    Se/Symbolizer/sevalue.cpp \
     Se/Symbolizer/sewellknownname.cpp \
     Sld/sldcoverageconstraint.cpp \
     Sld/sldcoverageextent.cpp \
@@ -135,10 +147,15 @@ SOURCES += \
 
 HEADERS += \
     Gml/gmlfeaturecollection.h \
-    Ogc/ogcexpression.h \
-    Ogc/ogcfilter.h \
-    Ogc/ogcpropertyname.h \
+    Ogc/Expr/ogcexpression.h \
+    Ogc/Expr/ogcpropertyname.h \
+    Ogc/Filter/ogcfilter.h \
     Se/Attritubes/seencoding.h \
+    Se/Attritubes/sefallbackvalue.h \
+    Se/Attritubes/semethod.h \
+    Se/Attritubes/semode.h \
+    Se/Attritubes/senameattr.h \
+    Se/Attritubes/sethreshholdsbelongto.h \
     Se/Attritubes/seuom.h \
     Se/Attritubes/seversion.h \
     Se/Common/seabstract.h \
@@ -168,6 +185,7 @@ HEADERS += \
     Se/Symbolizer/secolormap.h \
     Se/Symbolizer/secolorreplacement.h \
     Se/Symbolizer/secontrastenhancement.h \
+    Se/Symbolizer/sedata.h \
     Se/Symbolizer/sedisplacement.h \
     Se/Symbolizer/sedisplacementx.h \
     Se/Symbolizer/sedisplacementy.h \
@@ -175,6 +193,7 @@ HEADERS += \
     Se/Symbolizer/sefill.h \
     Se/Symbolizer/sefont.h \
     Se/Symbolizer/seformat.h \
+    Se/Symbolizer/sefunction.h \
     Se/Symbolizer/segammavalue.h \
     Se/Symbolizer/segap.h \
     Se/Symbolizer/segeneralizeline.h \
@@ -189,18 +208,21 @@ HEADERS += \
     Se/Symbolizer/seimageoutline.h \
     Se/Symbolizer/seinitialgap.h \
     Se/Symbolizer/seinterpolate.h \
+    Se/Symbolizer/seinterpolationpoint.h \
     Se/Symbolizer/seisaligned.h \
     Se/Symbolizer/seisrepeated.h \
     Se/Symbolizer/selabel.h \
     Se/Symbolizer/selabelplacement.h \
     Se/Symbolizer/selineplacement.h \
     Se/Symbolizer/selinesymbolizer.h \
+    Se/Symbolizer/selookupvalue.h \
+    Se/Symbolizer/semapitem.h \
     Se/Symbolizer/semark.h \
     Se/Symbolizer/semarkindex.h \
     Se/Symbolizer/senormalize.h \
     Se/Symbolizer/seopacity.h \
     Se/Symbolizer/seoverlapbehavior.h \
-    Se/Symbolizer/separametervaluetype.h \
+    Se/Symbolizer/separametervalue.h \
     Se/Symbolizer/seperpendicularoffset.h \
     Se/Symbolizer/sepointplacement.h \
     Se/Symbolizer/sepointsymbolizer.h \
@@ -218,6 +240,8 @@ HEADERS += \
     Se/Symbolizer/sesvgparameter.h \
     Se/Symbolizer/sesymbolizer.h \
     Se/Symbolizer/setextsymbolizer.h \
+    Se/Symbolizer/sethreshold.h \
+    Se/Symbolizer/sevalue.h \
     Se/Symbolizer/sewellknownname.h \
     Sld/sldcoverageconstraint.h \
     Sld/sldcoverageextent.h \

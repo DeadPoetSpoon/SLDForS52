@@ -1,17 +1,17 @@
 #ifndef SEROTATION_H
 #define SEROTATION_H
-#include "Xml/element.h"
-#include "Se/Symbolizer/separametervaluetype.h"
+//#include "Xml/element.h"
+#include "Se/Symbolizer/separametervalue.h"
 ///
 /// \brief The SeRotation class
 /// 旋转角度
 ///
-class SeRotation : public Element
+class SeRotation : public SeParameterValue
 {
 public:
     SeRotation();
 private:
-    SeParameterValueType* _seParameterValueType = nullptr;
+//    SeParameterValue* _seParameterValueType = nullptr;
 };
 
 #endif // SEROTATION_H

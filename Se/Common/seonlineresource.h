@@ -18,7 +18,7 @@ class SeOnlineResource:public Element
 public:
     SeOnlineResource();
 private:
-    //必有属性组xlink:simpleAttrs未添加。已添加
+    //必有属性组xlink:simpleAttrs未添加。已添加,不是所有必须
     XlinkType* _xlinkType = nullptr;
     XlinkHref* _xlinkHref = nullptr;
     XlinkRole* _xlinkRole = nullptr;

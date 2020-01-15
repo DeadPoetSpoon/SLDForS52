@@ -1,17 +1,17 @@
 #ifndef SESIZE_H
 #define SESIZE_H
-#include "Xml/element.h"
-#include "Se/Symbolizer/separametervaluetype.h"
+//#include "Xml/element.h"
+#include "Se/Symbolizer/separametervalue.h"
 ///
 /// \brief The SeSize class
 /// 尺寸
 ///
-class SeSize : public Element
+class SeSize : public SeParameterValue
 {
 public:
     SeSize();
 private:
-    SeParameterValueType* _seParameterValueType = nullptr;
+//    SeParameterValue* _seParameterValueType = nullptr;
 };
 
 #endif // SESIZE_H

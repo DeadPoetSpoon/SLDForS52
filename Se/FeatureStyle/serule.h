@@ -4,7 +4,7 @@
 #include "Se/Common/sename.h"
 #include "Se/Common/sedescription.h"
 #include "Se/FeatureStyle/selegendgraphic.h"
-#include "Ogc/ogcfilter.h"
+#include "Ogc/Filter/ogcfilter.h"
 #include "Se/FeatureStyle/seelsefilter.h"
 #include "Se/FeatureStyle/seminscaledenominator.h"
 #include "Se/FeatureStyle/semaxscaledenominator.h"

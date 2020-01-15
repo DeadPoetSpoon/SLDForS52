@@ -2,7 +2,7 @@
 #define SLDFEATURETYPECONSTRAINT_H
 #include "Xml/element.h"
 #include "Se/Common/sefeaturetypename.h"
-#include "Ogc/ogcfilter.h"
+#include "Ogc/Filter/ogcfilter.h"
 #include "Sld/sldextent.h"
 ///
 /// \brief The SldFeatureTypeConstraint class

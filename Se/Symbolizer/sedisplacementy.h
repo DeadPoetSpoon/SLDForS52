@@ -1,17 +1,16 @@
 #ifndef SEDISPLACEMENTY_H
 #define SEDISPLACEMENTY_H
-#include "Xml/element.h"
-#include "Se/Symbolizer/separametervaluetype.h"
+#include "Se/Symbolizer/separametervalue.h"
 ///
 /// \brief The SeDisplacementY class
 /// 位移Y
 ///
-class SeDisplacementY : public Element
+class SeDisplacementY : public SeParameterValue
 {
 public:
     SeDisplacementY();
 private:
-    SeParameterValueType*  _seParameterValueType = nullptr;
+//    SeParameterValue*  _seParameterValueType = nullptr;
 };
 
 #endif // SEDISPLACEMENTY_H

@@ -1,17 +1,17 @@
 #ifndef SERADIUS_H
 #define SERADIUS_H
-#include "Xml/element.h"
-#include "Se/Symbolizer/separametervaluetype.h"
+//#include "Xml/element.h"
+#include "Se/Symbolizer/separametervalue.h"
 ///
 /// \brief The SeRadius class
 /// 半径
 ///
-class SeRadius : public Element
+class SeRadius : public SeParameterValue
 {
 public:
     SeRadius();
 private:
-    SeParameterValueType* _seParameterValueType = nullptr;
+//    SeParameterValue* _seParameterValueType = nullptr;
 };
 
 #endif // SERADIUS_H

@@ -1,7 +1,7 @@
 #ifndef SEGEOMETRY_H
 #define SEGEOMETRY_H
 #include "Xml/element.h"
-#include "Ogc/ogcpropertyname.h"
+#include "Ogc/Expr/ogcpropertyname.h"
 ///
 /// \brief The SeGeometry class
 /// A Geometry gives reference to a (the) geometry property of a feature to be used for rendering.

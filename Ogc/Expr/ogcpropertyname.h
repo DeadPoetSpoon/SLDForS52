@@ -1,20 +1,17 @@
 #ifndef OGCPROPERTYNAME_H
 #define OGCPROPERTYNAME_H
-#include "Xml/element.h"
+#include "Ogc/Expr/ogcexpression.h"
 ///
 /// \brief The OgcPropertyName class
 /// string value
 /// 性质名字
 ///
-class OgcPropertyName : public Element
+class OgcPropertyName : public OgcExpression
 {
 public:
     OgcPropertyName();
 private:
-    ///
-    /// \brief _propertyName 必要元素
-    ///
-    QString _propertyName;
+
 };
 
 #endif // OGCPROPERTYNAME_H

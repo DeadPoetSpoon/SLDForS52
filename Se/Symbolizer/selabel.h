@@ -1,18 +1,18 @@
 #ifndef SELABEL_H
 #define SELABEL_H
-#include "Xml/element.h"
-#include "Se/Symbolizer/separametervaluetype.h"
+//#include "Xml/element.h"
+#include "Se/Symbolizer/separametervalue.h"
 ///
 /// \brief The SeLabel class
 /// A "Label" specifies the textual content to be rendered.
 /// “Label”指定要呈现的文本内容。
 ///
-class SeLabel : public Element
+class SeLabel : public SeParameterValue
 {
 public:
     SeLabel();
 private:
-    SeParameterValueType* _seParameterValueType = nullptr;
+//    SeParameterValue* _seParameterValueType = nullptr;
 };
 
 #endif // SELABEL_H
